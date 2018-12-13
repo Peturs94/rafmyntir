@@ -11,7 +11,7 @@ class App extends Component {
       <Layout>
         <Header className="header_color" title="Education in a suitcase" scroll>
             <Navigation>
-                <Link to="/aboutme">about</Link>
+                <Link to="/aboutme">About</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/donate">Donate</Link>
                 <Link to="/articles">Articles</Link>
