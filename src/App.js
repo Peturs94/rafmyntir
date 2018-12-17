@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer} from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 
@@ -39,6 +39,19 @@ class App extends Component {
             <div className="page-content" />
             <Main/>
         </Content>
+        <Footer className="header_color2" title="test" scroll>
+            <Navigation>
+                <Link to="/aboutme">About</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/donate">Donate</Link>
+                <Link to="/articles">Articles</Link>
+                <Link to="/ccas">CCAS</Link>
+                <Link to="/coin">SmileyCoin</Link>
+                <Link to="/info">General Information</Link>
+                <Link to="/news">News</Link>
+                <Link to="/tutor">Online Tutors</Link>
+            </Navigation>
+        </Footer>
     </Layout>
 </div>
 
