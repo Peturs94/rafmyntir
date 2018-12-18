@@ -1,32 +1,20 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-//import LandingPage from './landingpage';
+// Components
 import Homepage from './homepage';
-import AboutMe from './aboutme';
-import Contact from './contact';
-import Donate from './donate';
-import Articles from './articles';
-import CCAS from './ccas';
-import SmileyCoin from './coin';
-import Info from './info';
 import News from './news';
-import Privacy from './privacy';
-import Tutors from './tutor';
+import Download from './Download/Download';
+import Esuitcase from './Esuitcase/Esuitcase';
+import Uses from './Uses/Uses';
 
 const Main = () => (
   <Switch>
-    <Route path="/aboutme" component={AboutMe} />
-    <Route path="/contact" component={Contact} />
-    <Route path="/donate" component={Donate} />
-    <Route path="/articles" component={Articles} />
-    <Route path="/ccas" component={CCAS} />
-    <Route path="/coin" component={SmileyCoin} />
-    <Route path="/info" component={Info} />
+    <Route path="/Download" component={Download} />
     <Route path="/news" component={News} />
-    <Route path="/privacy" component={Privacy} />
-    <Route path="/tutor" component={Tutors} />
-    <Route path="/" component={Homepage} />
+    <Route path="/Esuitcase" component={Esuitcase} />
+    <Route path="/Uses" component={Uses} />
+    
   </Switch>
 )
 
