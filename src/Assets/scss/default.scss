@@ -69,8 +69,6 @@
     font-size: 20px;
     padding: 1em;
   }
-<<<<<<< HEAD
-=======
 
   .lysing-text {
     background-color: black;
@@ -92,8 +90,14 @@
       margin: auto;
   }
 
->>>>>>> 7cbe2b790fc35112c10ce7698343e488e3fc3818
 
 .Button {
   font-family: serif;
 }
+
+
+// Imports
+@import '../../components/Backdrop/Backdrop.scss'; 
+@import '../../components/SideDrawer/DrawerToggleButton.scss';
+@import '../../components/SideDrawer/SideDrawer.scss';
+@import '../../components/Toolbar/Toolbar.scss'
