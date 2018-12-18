@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 //import LandingPage from './landingpage';
+import Homepage from './homepage';
 import AboutMe from './aboutme';
 import Contact from './contact';
 import Donate from './donate';
