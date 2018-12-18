@@ -10,6 +10,8 @@
   .main__content {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
   
   .landing-grid {
@@ -104,4 +106,5 @@
 @import '../../components/Backdrop/Backdrop.scss'; 
 @import '../../components/SideDrawer/DrawerToggleButton.scss';
 @import '../../components/SideDrawer/SideDrawer.scss';
-@import '../../components/Toolbar/Toolbar.scss'
+@import '../../components/Toolbar/Toolbar.scss';
+@import '../../components/Download/Download.scss';

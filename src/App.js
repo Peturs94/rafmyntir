@@ -38,7 +38,6 @@ class App extends Component {
         {backdrop}
         <main style={{marginTop: '64px'}}>
           <div className="main__content">
-          <p>This is the page content!</p>
           <Main />
           </div>
         </main>
