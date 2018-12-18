@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-class Articles extends Component {
+class Download extends Component {
   render() {
     return(
-      <div> <h1> Articles Page</h1>
+      <div> <h1> Downloads Page</h1>
       <h1>Hello</h1></div>
     )
   }
 }
 
-export default Articles;
+export default Download;
