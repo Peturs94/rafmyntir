@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 // Components
-import Custom_Header from './components/headerComponent/header';
-import Footer from './components/footerComponent/footer';
 import Main from './components/main';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
@@ -39,8 +37,10 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <main style={{marginTop: '64px'}}>
+          <div className="main__content">
           <p>This is the page content!</p>
           <Main />
+          </div>
         </main>
         </div>
 
