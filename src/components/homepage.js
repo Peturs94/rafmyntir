@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-class Landing extends Component {
+class Homepage extends Component {
   render() {
     return(
-      <div styles={{width: '100%', margin: 'auto'}}>
+      <div className="container-fluid" >
         <Grid className="landing-grid">
           <Cell col={12}>
             <img src="https://assets.coingecko.com/coins/images/685/large/smileycoin.png?1510040252" alt="SmileyCoin" className="Smiley-img">
@@ -20,4 +20,4 @@ class Landing extends Component {
   }
 }
 
-export default Landing;
+export default Homepage;
