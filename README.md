@@ -1,7 +1,5 @@
 ## Rafmyntir_Lokaverkefni - STÆ532M
 
-In the project directory, you can run:
-
 ### Höfundar
 
 Þór Pétursson - thp42@hi.is<br>
