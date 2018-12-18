@@ -26,6 +26,7 @@ const Main = () => (
     <Route path="/news" component={News} />
     <Route path="/privacy" component={Privacy} />
     <Route path="/tutor" component={Tutors} />
+    <Route path="/" component={Homepage} />
   </Switch>
 )
 
