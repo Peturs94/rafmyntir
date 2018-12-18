@@ -6,6 +6,14 @@
     background: -o-linear-gradient(left, $darkBlue, $lightBlue);
     background: linear-gradient(to right, $darkBlue, $lightBlue);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+
+  .main__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  
   .landing-grid {
     background: $lightBlue;  /* fallback for old browsers */
     background: -webkit-linear-gradient(left, $darkBlue, $lightBlue);
@@ -13,8 +21,6 @@
     background: linear-gradient(to right, $darkBlue, $lightBlue);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     overflow: scroll;
@@ -69,8 +75,6 @@
     font-size: 20px;
     padding: 1em;
   }
-<<<<<<< HEAD
-=======
 
   .lysing-text {
     background-color: black;
@@ -92,8 +96,17 @@
       margin: auto;
   }
 
->>>>>>> 7cbe2b790fc35112c10ce7698343e488e3fc3818
 
 .Button {
   font-family: serif;
 }
+
+
+// Imports
+@import '../../components/Backdrop/Backdrop.scss'; 
+@import '../../components/SideDrawer/DrawerToggleButton.scss';
+@import '../../components/SideDrawer/SideDrawer.scss';
+@import '../../components/Toolbar/Toolbar.scss';
+@import '../../components/Download/Download.scss';
+@import '../../components/Esuitcase/Esuitcase.scss';
+@import '../../components/Uses/Uses.scss';
