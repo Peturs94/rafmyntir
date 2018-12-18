@@ -5,7 +5,7 @@ import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from '../main';
 
-class Custom_Header extends Component {
+class CustomHeader extends Component {
   render() {
     return(
       <div className="header">
@@ -46,4 +46,4 @@ class Custom_Header extends Component {
   }
 }
 
-export default Custom_Header;
+export default CustomHeader;

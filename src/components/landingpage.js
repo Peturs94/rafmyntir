@@ -14,18 +14,25 @@ class Landing extends Component {
               <h1>Smiley Coin</h1>
               <p>The cryptocurrency used for rewarding work in the tutor-web.</p>
             </div>
-            <div className="lysing-text">
-              <p>The Smileycoin,  SMLY, is used for rewarding
-               students for their performance in the tutor-web learning
-                environment and is used for donations to the project
-                Education in a Suitcase. This documents describes the foundations
-                 of the SMLY. At the bottom of the document there is a
-                  list of proposed changes.
-              </p>
-              <Button ripple>
-                <Link to="/aboutme">Learn More</Link>
-              </Button>
-
+            <div className="dalkur-text">
+            <h2>General</h2>
+            <p>The Smileycoin,  SMLY, is used for rewarding
+             students for their performance in the tutor-web learning
+              environment and is used for donations to the project
+              Education in a Suitcase.
+            </p>
+            <Button raised>
+              <Link to="/coin">Learn More</Link>
+            </Button>
+            </div>
+            <div className="dalkur-text">
+            <h2>Wallet</h2>
+            <p>Smileycoins are stored in wallets.
+            SMLY wallets for Linux, Android and Windows
+            are available for download</p>
+            <Button raised>
+              <Link to="/coin">Learn More</Link>
+            </Button>
             </div>
           </Cell>
         </Grid>

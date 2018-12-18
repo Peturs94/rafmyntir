@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Components
-import Custom_Header from './components/headerComponent/header';
+import CustomHeader from './components/headerComponent/header';
 
 
 // Includes
@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
         <div className="App">
-            <Custom_Header />
+            <CustomHeader />
         </div>
 
     );

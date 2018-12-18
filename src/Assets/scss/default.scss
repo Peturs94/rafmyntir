@@ -31,16 +31,15 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    overflow: scroll;
   }
 
   .Smiley-img {
     height: 250px;
-    padding-top: 5em;
+    padding-top: 2em;
   }
 
   .banner-text {
-    background-color: black;
-    opacity: .8;
     width: 55%;
     margin: auto;
     border-radius: 10px;
@@ -51,14 +50,14 @@ body {
     font-weight: bold;
     color: white;
   }
-
   .banner-text p {
     color: white;
     font-size: 20px;
-    padding: 1em;
+    padding-bottom: 1em;
   }
 
-  .lysing-text {
+
+  .dalkur-text {
     background-color: black;
     opacity: .8;
     width: 55%;
@@ -66,8 +65,25 @@ body {
     border-radius: 10px;
   }
 
-  .lysing-text p {
+  .dalkur-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .dalkur-text h2 {
+    font-family: Oxygen;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .dalkur-text p {
     color: white;
     font-size: 20px;
     padding: 1em;
   }
+
+.Button {
+  font-family: serif;
+}
