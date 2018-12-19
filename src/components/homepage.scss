@@ -1,0 +1,31 @@
+.homepage {
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__section {
+        width: 80%;
+    }
+
+    &__text {
+        border-radius: 25px;
+        background: black;
+        padding: 20px;
+    }
+
+    &__text a {
+        color: white;
+        text-decoration: none;
+    }
+
+    &__text a:hover, 
+    &__text a:active {
+        color: #fa923f;
+    }
+}
