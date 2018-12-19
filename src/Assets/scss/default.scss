@@ -15,9 +15,9 @@
     height: 100%;
 
     color: white;
-    
+
   }
-  
+
   .landing-grid {
     background: $lightBlue;  /* fallback for old browsers */
     background: -webkit-linear-gradient(left, $darkBlue, $lightBlue);
@@ -79,6 +79,7 @@
     font-size: 20px;
     padding: 1em;
   }
+  
 
   .lysing-text {
     background-color: black;
@@ -107,7 +108,7 @@
 
 
 // Imports
-@import '../../components/Backdrop/Backdrop.scss'; 
+@import '../../components/Backdrop/Backdrop.scss';
 @import '../../components/SideDrawer/DrawerToggleButton.scss';
 @import '../../components/SideDrawer/SideDrawer.scss';
 @import '../../components/Toolbar/Toolbar.scss';
