@@ -21,7 +21,7 @@ class Homepage extends Component {
             <p>The tutor-web pays students for completing their drills and exercises, using the Smileycoin currency. The actual amount paid varies from course to course. Currently a student gets one or a few SMLY for passing a lecture but many more (10, 100 or even 10000) for the highest grade. The student can download a SMLY wallet and redeem the earned SMLY into the wallet. The student can then pay a peer for tutoring using the Smileycoins earned in the system, buy coffee for the SMLY or exchange them for other currencies.</p>
             <p>To get a feel for the mission of the project, look at the TEDx Reykjavík talk.</p>
             <div className="homepage__video">
-              <iframe src="https://www.youtube.com/watch?v=hHUgIzEh_Wk"></iframe>
+              <iframe src="http://www.youtube.com/embed/hHUgIzEh_Wk"></iframe>
             </div>
             <p>Below is a description of the coin development. For actively updated information on the coin, go to the Bitcointalk page.</p>
           </div>

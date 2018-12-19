@@ -29,6 +29,11 @@
         color: #fa923f;
     }
 
+    &__video {
+        display: flex;
+        justify-content: center;
+    }
+
     iframe {
         width: 420px; 
         height: 315px;
